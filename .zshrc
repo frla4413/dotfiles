@@ -32,6 +32,8 @@ alias open=okular
 #alias tmux="TERM=screen-256color-bce tmux"
 alias tmux="TERM=screen-256color tmux"
 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 export WORKON_HOME=~/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 source /usr/bin/virtualenvwrapper.sh
